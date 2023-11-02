@@ -14,3 +14,5 @@ const butn2 = document.createElement('button');
 
 list.appendChild(span);
 list.appendChild(butn2);
+
+span.textContent = item;
