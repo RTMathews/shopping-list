@@ -10,3 +10,4 @@ function btnClick()
 
 const list = document.createElement('li');
 const span = document.createElement('span');
+const butn2 = document.createElement('button');
