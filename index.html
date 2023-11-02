@@ -49,6 +49,10 @@
         listItem.appendChild(listBtn);
         listBtn.textContent = 'Delete';
         list.appendChild(listItem);
+
+        listBtn.addEventListener('click', () => {
+          list.removeChild(listItem);
+        })
       })
     </script>
   </body>
