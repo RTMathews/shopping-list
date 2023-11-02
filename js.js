@@ -16,3 +16,4 @@ list.appendChild(span);
 list.appendChild(butn2);
 
 span.textContent = item;
+butn2.textContent ="Delete";
