@@ -7,3 +7,5 @@ function btnClick()
     let item = input;
     item = '';
 }
+
+const list = document.createElement('li');
