@@ -5,4 +5,5 @@ const butn = document.createElement('button');
 function btnClick()
 {
     let item = input;
+    item = '';
 }
