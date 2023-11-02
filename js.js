@@ -1,6 +1,6 @@
-const ul = document.createElement('ul');
-const input = document.createElement('input');
-const butn = document.createElement('button');
+const ul = document.querySelector('ul');
+const input = document.querySelector('input');
+const butn = document.querySelector('button');
 
 function btnClick()
 {
