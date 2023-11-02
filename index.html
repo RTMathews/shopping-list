@@ -32,12 +32,11 @@
 
     <script>
       const list = document.querySelector('ul');
-      const input = document.querySelectory('input');
+      const input = document.querySelector('input');
       const button = document.querySelector('button');
 
-      button.addEventListener('click', () =>
-      {
-        const myItem = input.vlaue;
+      button.addEventListener('click', () => {
+        const myItem = input.value;
         input.value = '';
 
         const listItem = document.createElement('li');
@@ -52,7 +51,7 @@
 
         listBtn.addEventListener('click', () => {
           list.removeChild(listItem);
-        })
+        });
 
         input.focus();
       });
